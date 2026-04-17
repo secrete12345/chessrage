@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "chessrage",
+  "version": "1.0",
+  "action": {
+   "default_popup": "index.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["magnus.mp4"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["scripting", "activeTab"]
+}
